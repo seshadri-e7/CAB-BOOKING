@@ -1,1 +1,37 @@
+# Configure MongoDB
 
+## Project Name
+UCAB – Cab Booking System
+
+## Objective
+
+The objective of this task is to configure MongoDB in the backend application using Mongoose. Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js that helps manage database operations through schemas and models.
+
+---
+
+## What is MongoDB?
+
+MongoDB is a NoSQL database that stores data in JSON-like documents. It is flexible, scalable, and widely used in MERN Stack applications.
+
+---
+
+## What is Mongoose?
+
+Mongoose is a MongoDB ODM library for Node.js.
+
+Features:
+
+- Schema-based data modeling
+- Data validation
+- Query building
+- Middleware support
+- Easy database interaction
+
+---
+
+## Step 1: Install Mongoose
+
+Open the terminal in the Server folder and run:
+
+```bash
+npm install mongoose
