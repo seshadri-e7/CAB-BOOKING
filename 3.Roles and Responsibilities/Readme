@@ -1,1 +1,151 @@
-.
+# UCAB - Roles and Responsibilities
+
+## Overview
+
+The UCAB Cab Booking System follows a Role-Based Access Control (RBAC) model. The system consists of three main roles:
+
+1. User (Rider)
+2. Driver
+3. Admin
+
+Each role has specific responsibilities and permissions to ensure smooth and secure operation of the application.
+
+---
+
+## User (Rider)
+
+The User is responsible for booking rides and managing personal travel activities.
+
+### Responsibilities
+
+- Register a new account
+- Login securely into the application
+- Search available cabs
+- Book rides
+- Track rides in real-time
+- View booking history
+- View payment receipts
+- Manage profile information
+
+### Features
+
+- User Authentication
+- Cab Booking
+- Ride Tracking
+- Ride History
+- Payment Management
+
+---
+
+## Driver
+
+The Driver is responsible for providing transportation services and managing ride requests.
+
+### Responsibilities
+
+- Login to the system
+- View assigned ride requests
+- Accept or reject ride requests
+- Start and complete rides
+- Update ride status
+- View earnings
+- Access ride history
+
+### Features
+
+- Driver Authentication
+- Ride Management
+- Status Updates
+- Earnings Dashboard
+- Ride History
+
+---
+
+## Admin
+
+The Admin manages the overall platform and monitors system activities.
+
+### Responsibilities
+
+- Manage users
+- Manage drivers
+- Monitor ride bookings
+- Track payment transactions
+- Generate reports and analytics
+- Add vehicle categories
+- Remove vehicle categories
+
+### Features
+
+- User Management
+- Driver Management
+- Booking Monitoring
+- Payment Monitoring
+- Reports and Analytics
+- Vehicle Category Management
+
+---
+
+## Role Relationship Diagram
+
+```text
+                   +-------------+
+                   |    ADMIN    |
+                   +-------------+
+                          |
+        -----------------------------------
+        |                                 |
+        v                                 v
+
++----------------+            +----------------+
+|      USER      |            |     DRIVER     |
++----------------+            +----------------+
+| Register/Login |            | Login          |
+| Book Cab       |            | Accept Ride    |
+| Track Ride     |            | Reject Ride    |
+| Ride History   |            | Update Status  |
+| Receipts       |            | View Earnings  |
++----------------+            +----------------+
+```
+
+---
+
+## Role Permissions
+
+| Function | User | Driver | Admin |
+|-----------|------|--------|--------|
+| Register/Login | Yes | Yes | Yes |
+| Book Cab | Yes | No | No |
+| Track Ride | Yes | Yes | Yes |
+| Accept Ride | No | Yes | No |
+| Update Ride Status | No | Yes | No |
+| View Earnings | No | Yes | Yes |
+| Manage Users | No | No | Yes |
+| Manage Drivers | No | No | Yes |
+| View Reports | No | No | Yes |
+| Manage Vehicle Categories | No | No | Yes |
+
+---
+
+## Technologies Used
+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- Bootstrap
+
+---
+
+## Outcome
+
+The Roles and Responsibilities module ensures secure access control, efficient ride management, and smooth administration of the UCAB Cab Booking System.
+
+---
+
+Project: UCAB Cab Booking System
+
+Technology Stack: MERN Stack
+
+Task: Roles and Responsibilities.
