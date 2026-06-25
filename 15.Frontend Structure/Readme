@@ -1,1 +1,30 @@
+                 FRONTEND (React.js)
 
+                        User
+                          │
+                          ▼
+
+                     Components
+                          │
+        ┌─────────────────┼─────────────────┐
+        │                 │                 │
+
+      Navbar         BookingForm        CabCard
+
+                          │
+                          ▼
+
+                        Pages
+                          │
+
+      Home | Login | Signup | Booking | Profile
+
+                          │
+                          ▼
+
+                   Services (Axios)
+
+                          │
+                          ▼
+
+                     Backend APIs
