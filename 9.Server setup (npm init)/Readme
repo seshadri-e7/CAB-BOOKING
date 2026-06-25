@@ -1,1 +1,17 @@
+# SERVER SETUP (npm init)
 
+## Project Name
+UCAB – Cab Booking System
+
+## Objective
+
+The objective of this task is to initialize the backend environment using Node.js and create the basic project structure required for developing APIs, controllers, models, and routes.
+
+---
+
+## Step 1: Open Server Folder
+
+Open the terminal in Visual Studio Code and navigate to the Server folder.
+
+```bash
+cd Server
