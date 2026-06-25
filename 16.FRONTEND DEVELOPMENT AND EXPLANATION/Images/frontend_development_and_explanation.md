@@ -5,6 +5,7 @@
 **UCAB – Cab Booking System**
 
 ## Technology Stack
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d575acc2-e5b4-43f4-9768-385328825b81" />
 
 React.js, Axios, Bootstrap, JavaScript (MERN Stack)
 
