@@ -9,6 +9,7 @@
 The Roles and Responsibilities module defines the permissions and functionalities available to different users of the UCAB system. The application follows a Role-Based Access Control (RBAC) approach where Users, Drivers, and Admins have specific responsibilities and access rights.
 
 ---
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/71ca06bc-2f97-4088-9828-2d6b441753bd" />
 
 # Introduction
 
