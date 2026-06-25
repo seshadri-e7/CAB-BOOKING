@@ -1,1 +1,101 @@
++------------------------------------------------+
+|                 UCAB SYSTEM                    |
++------------------------------------------------+
+                       |
+                       ▼
+                +-------------+
+                |  server.js  |
+                +-------------+
+                       |
+   -------------------------------------------------
+   |              |             |         |         |
+   ▼              ▼             ▼         ▼         ▼
 
++----------+  +----------+  +--------+ +---------+ +---------+
+|Controllers| |  Models  |  | Routes | |Middleware| | Uploads |
++----------+  +----------+  +--------+ +---------+ +---------+
+| Admin    |  | Admin    |  | Admin  | | JWT     | | Images  |
+| User     |  | User     |  | User   | | Multer  | | Docs    |
+| Car      |  | Car      |  | Car    | +---------+ +---------+
+| Booking  |  | Booking  |  | Booking|
++----------+  +----------+  +--------+
+                       |
+                       ▼
+                +-------------+
+                |  MongoDB    |
+                +-------------+
+
+
+
+
+
+
+# Development and Explanation
+
+## Project Name
+UCAB – Cab Booking System
+
+## Objective
+
+The backend of the UCAB Cab Booking System is developed using Node.js, Express.js, MongoDB, and Mongoose. The project follows a modular architecture where each folder has a specific responsibility, making the application scalable, maintainable, and easy to understand.
+
+---
+
+## 1. Controllers
+
+The controllers folder contains the business logic of the application.
+
+### adminController.js
+
+Responsible for:
+
+- Managing users
+- Managing drivers
+- Managing cab details
+- Monitoring bookings
+
+### bookingController.js
+
+Responsible for:
+
+- Booking rides
+- Viewing booking history
+- Cancelling bookings
+- Updating ride status
+
+### carController.js
+
+Responsible for:
+
+- Adding new cars
+- Updating car details
+- Deleting cars
+- Fetching available cabs
+
+### userController.js
+
+Responsible for:
+
+- User registration
+- User login
+- Profile management
+- Authentication handling
+
+---
+
+## 2. Database Configuration
+
+### db/config.js
+
+This file is responsible for connecting the application to MongoDB using Mongoose.
+
+Functions:
+
+- Establish database connection
+- Handle database errors
+- Maintain communication with MongoDB
+
+Example:
+
+```javascript
+mongoose.connect(MONGO_URI);
