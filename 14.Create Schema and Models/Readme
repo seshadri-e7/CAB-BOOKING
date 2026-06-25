@@ -1,1 +1,139 @@
+# Create Schema and Models
 
+## Project Name
+UCAB – Cab Booking System
+
+## Objective
+
+The objective of this task is to create MongoDB schemas and models using Mongoose. Schemas define the structure of data stored in the database, while models provide an interface to interact with MongoDB collections.
+
+The UCAB application uses the following schemas:
+
+- Admin Schema
+- User Schema
+- Car Schema
+- MyBooking Schema
+
+---
+
+## Introduction to Schemas and Models
+
+### Schema
+
+A Schema defines the structure of a document in MongoDB. It specifies the fields, data types, and relationships between collections.
+
+### Model
+
+A Model is created from a Schema and is used to perform database operations such as:
+
+- Create
+- Read
+- Update
+- Delete (CRUD)
+
+---
+
+## Admin Schema
+
+The Admin Schema stores administrator information.
+
+### Fields
+
+- Name
+- Email
+- Password
+- User Reference
+
+### Purpose
+
+- Manage users
+- Manage cab details
+- Monitor bookings
+- View reports
+
+---
+
+## User Schema
+
+The User Schema stores user account information.
+
+### Fields
+
+- Name
+- Email
+- Password
+- User Reference
+
+### Purpose
+
+- User Registration
+- User Login
+- Profile Management
+- Ride Booking
+
+---
+
+## Car Schema
+
+The Car Schema stores vehicle details.
+
+### Fields
+
+- Driver Name
+- Car Image
+- Car Name
+- Car Type
+- Price
+- Car Number
+
+### Purpose
+
+- Store available cabs
+- Manage vehicle information
+- Display cab details to users
+
+---
+
+## MyBooking Schema
+
+The MyBooking Schema stores booking and ride information.
+
+### Fields
+
+- Pickup State
+- Pickup City
+- Drop State
+- Drop City
+- Pickup Date
+- Pickup Time
+- Drop Date
+- Drop Time
+- Driver Name
+- Fare
+- Car Name
+- Car Type
+- Car Number
+- Price
+- User ID
+- User Name
+- Booking Date
+
+### Purpose
+
+- Store ride details
+- Connect users with booked vehicles
+- Track ride history
+- Manage booking records
+
+---
+
+## Schema Relationships
+
+### User → Booking
+
+One User can have multiple bookings.
+
+Relationship:
+
+```text
+User (1) ------ (Many) Bookings
