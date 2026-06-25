@@ -1,0 +1,33 @@
+                    UCAB CAB BOOKING SYSTEM
+
+ ┌─────────────────────────────────────┐
+ │          FRONTEND LAYER             │
+ │           React.js UI               │
+ │ Login | Booking | Tracking          │
+ └───────────────┬─────────────────────┘
+                 │
+                 ▼
+ ┌─────────────────────────────────────┐
+ │           API LAYER                 │
+ │       Axios HTTP Requests           │
+ └───────────────┬─────────────────────┘
+                 │
+                 ▼
+ ┌─────────────────────────────────────┐
+ │         BACKEND LAYER               │
+ │      Node.js + Express.js           │
+ │ Routes → Controllers → Models       │
+ └───────────────┬─────────────────────┘
+                 │
+                 ▼
+ ┌─────────────────────────────────────┐
+ │       AUTHENTICATION LAYER          │
+ │         JWT + bcryptjs              │
+ └───────────────┬─────────────────────┘
+                 │
+                 ▼
+ ┌─────────────────────────────────────┐
+ │         DATABASE LAYER              │
+ │            MongoDB                  │
+ │ Users | Drivers | Rides | Payments  │
+ └─────────────────────────────────────┘
