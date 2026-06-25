@@ -15,6 +15,7 @@ MERN Stack (MongoDB, Express.js, React.js, Node.js)
 The UCAB Features Module outlines the core functional requirements and core capabilities built into the platform, ensuring safe user onboarding, flexibility in booking adjustments, automated financial calculations, and secure trip tracking.
 
 ---
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7059775f-c6cc-4580-9316-56f6b3f0f1bf" />
 
 # Core Features
 
