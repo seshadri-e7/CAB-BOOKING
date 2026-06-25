@@ -3,6 +3,7 @@
 ## Project Name
 
 **UCAB – Cab Booking System**
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/17153477-3999-4024-b10a-dbe656a17fe9" />
 
 ## Technology Stack
 
