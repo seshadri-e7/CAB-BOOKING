@@ -9,7 +9,7 @@
 The User Flow document maps the detailed, step-by-step navigation paths and interaction logic for all actors within the UCAB application. By analyzing the workflow of Riders, Drivers, and Admins, this document ensures a seamless user experience (UX) and guides the development of frontend routing and backend API integration.
 
 ---
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/71ca06bc-2f97-4088-9828-2d6b441753bd" />
 # Introduction
 
 The UCAB application relies on synchronous state transitions between three core roles:
