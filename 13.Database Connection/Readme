@@ -1,1 +1,157 @@
+# Database Connection
 
+## Project Name
+UCAB – Cab Booking System
+
+## Objective
+
+The objective of this task is to establish a connection between the Node.js backend application and MongoDB using Mongoose. This connection allows the application to perform database operations such as storing users, managing bookings, tracking rides, and handling payments.
+
+---
+
+## Prerequisites
+
+Before connecting to MongoDB, ensure the following:
+
+- Node.js is installed
+- MongoDB is installed and running
+- Mongoose package is installed
+
+Install Mongoose using:
+
+```bash
+npm install mongoose
+```
+
+---
+
+## Environment Variable Setup
+
+Create a `.env` file in the Server folder.
+
+Example:
+
+```env
+MONGO_URI=mongodb://127.0.0.1:27017/ucab
+```
+
+The connection string is stored securely using environment variables.
+
+---
+
+## Database Connection File
+
+Create a file named:
+
+```text
+db/config.js
+```
+
+Add the following code:
+
+```javascript
+const mongoose = require('mongoose');
+
+const connectDB = async () => {
+    try {
+        await mongoose.connect(process.env.MONGO_URI);
+        console.log("MongoDB Connected");
+    } catch (error) {
+        console.error(error.message);
+        process.exit(1);
+    }
+};
+
+module.exports = connectDB;
+```
+
+---
+
+## Connecting Database in Server
+
+Import and call the database connection function inside `server.js`.
+
+Example:
+
+```javascript
+const express = require("express");
+const connectDB = require("./db/config");
+
+const app = express();
+
+connectDB();
+
+app.listen(8000, () => {
+    console.log("Server Running");
+});
+```
+
+---
+
+## Folder Structure
+
+```text
+Server
+│
+├── db
+│   └── config.js
+│
+├── .env
+│
+├── server.js
+│
+├── models
+├── controllers
+└── routes
+```
+
+---
+
+## Database Connection Workflow
+
+1. Server starts.
+2. connectDB() function is executed.
+3. Mongoose reads the MongoDB URI.
+4. Connection request is sent to MongoDB.
+5. MongoDB accepts the connection.
+6. Application becomes ready for database operations.
+
+---
+
+## Expected Output
+
+If connection is successful:
+
+```text
+MongoDB Connected
+```
+
+If connection fails:
+
+```text
+Connection Error
+```
+
+---
+
+## Benefits
+
+- Secure database connectivity
+- Centralized connection management
+- Easy configuration using environment variables
+- Reliable communication with MongoDB
+- Supports scalable application development
+
+---
+
+## Outcome
+
+Successfully established a connection between the Node.js backend application and MongoDB using Mongoose. The UCAB application is now capable of performing database operations securely and efficiently.
+
+---
+
+Project: UCAB Cab Booking System
+
+Technology Stack: Node.js, MongoDB, Mongoose
+
+Task: Database Connection
