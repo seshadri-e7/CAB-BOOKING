@@ -1,1 +1,77 @@
+# UCAB - Creating Project Folder
 
+## Objective
+
+The first step of the UCAB Cab Booking System is creating a proper project structure. This helps separate frontend and backend development, making the project organized and easy to maintain.
+
+---
+
+## Folder Creation Steps
+
+### Step 1: Create Main Project Folder
+
+Create a folder named:
+
+UCAB
+
+### Step 2: Create Client Folder
+
+Inside the UCAB folder, create a folder named:
+
+Client
+
+Purpose:
+- React.js Frontend
+- User Interface Components
+- Pages
+- API Integration
+
+### Step 3: Create Server Folder
+
+Inside the UCAB folder, create a folder named:
+
+Server
+
+Purpose:
+- Node.js Backend
+- Express.js APIs
+- Controllers
+- Models
+- Routes
+- Database Configuration
+
+### Step 4: Open in VS Code
+
+Open Visual Studio Code and select:
+
+File → Open Folder → UCAB
+
+---
+
+## Project Structure
+
+UCAB
+│
+├── Client
+│
+└── Server
+
+---
+
+## Advantages
+
+- Clear separation of frontend and backend
+- Better project organization
+- Easier maintenance
+- Supports team collaboration
+- Scalable architecture
+
+---
+
+## Outcome
+
+Successfully created the initial project structure for the UCAB Cab Booking System with separate Client and Server folders, preparing the project for MERN stack development.
+
+Project: UCAB Cab Booking System
+Technology: MERN Stack
+Task: Creating Project Folder
