@@ -274,8 +274,11 @@ The repository includes:
 # 👨💻 Developed By
 
 Mokhamatam Niharika
+
 Naru Tejasri
+
 Samarouthu Bala Gangadhara Sai Ram
+
 Seshadri Naidu Bantrothu
 
 Kolakaluri Vijay Babu
