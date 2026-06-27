@@ -1,1 +1,328 @@
+# 🚖 UCAB – MERN Stack Cab Booking System
 
+UCAB is a full-stack Cab Booking Web Application developed using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. The application provides a seamless platform for users to book cabs, track rides, manage bookings, and make secure payments. It also includes an Admin panel for managing users, cabs, and bookings.
+
+---
+
+# 📌 Project Overview
+
+UCAB simplifies daily transportation by allowing users to book rides online with an intuitive interface. The system provides role-based authentication for Users and Admins, secure booking management, real-time ride tracking, and payment support.
+
+---
+
+# 🚀 Features
+
+### 👤 User Module
+
+- User Registration & Login
+- Secure JWT Authentication
+- Browse Available Cabs
+- Book a Cab
+- Schedule Future Rides
+- Ride Cancellation
+- View Booking History
+- Download Booking Receipt
+- Real-Time Ride Tracking
+
+---
+
+### 🚗 Driver Module
+
+- Driver Login
+- View Assigned Rides
+- Accept / Reject Booking Requests
+- Update Ride Status
+- View Ride History
+- Earnings Dashboard
+
+---
+
+### 👨‍💼 Admin Module
+
+- Admin Authentication
+- Dashboard Overview
+- Manage Users
+- Manage Drivers
+- Manage Cabs
+- Manage Bookings
+- Monitor Payments
+- View Reports & Analytics
+
+---
+
+# 🛠 Technology Stack
+
+## Frontend
+
+- React.js
+- React Router DOM
+- Bootstrap
+- Axios
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+---
+
+## Backend
+
+- Node.js
+- Express.js
+- JWT Authentication
+- bcryptjs
+- Multer
+- CORS
+
+---
+
+## Database
+
+- MongoDB
+- Mongoose ODM
+
+---
+
+## Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
+- Postman
+- MongoDB Compass
+- Node.js
+- npm
+
+---
+
+# 📂 Project Structure
+
+```
+UCAB/
+│
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── Components/
+│   │   ├── Pages/
+│   │   ├── Assets/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
+│
+├── server/
+│   ├── controllers/
+│   ├── db/
+│   ├── middlewares/
+│   ├── models/
+│   ├── routes/
+│   ├── uploads/
+│   ├── server.js
+│   └── package.json
+│
+├── README.md
+└── .gitignore
+```
+
+---
+
+# 🗄 Database Collections
+
+- Users
+- Admins
+- Drivers
+- Cars
+- Bookings
+- Payments
+
+---
+
+# 🔄 System Workflow
+
+1. User Registration/Login
+2. User Selects Cab
+3. Enter Pickup & Drop Location
+4. Fare Estimation
+5. Booking Confirmation
+6. Driver Assignment
+7. Ride Tracking
+8. Payment
+9. Ride Completion
+10. Booking History Updated
+
+---
+
+# 🔐 Authentication
+
+- JWT Token Authentication
+- Password Encryption using bcryptjs
+- Protected Routes
+- Role-Based Authorization
+
+---
+
+# 📡 REST API
+
+## User
+
+- POST /api/users/register
+- POST /api/users/login
+- GET /api/users/profile
+
+## Admin
+
+- POST /api/admin/login
+- GET /api/admin/users
+
+## Cars
+
+- GET /api/cars
+- POST /api/cars
+- PUT /api/cars/:id
+- DELETE /api/cars/:id
+
+## Bookings
+
+- POST /api/bookings
+- GET /api/bookings
+- PUT /api/bookings/:id
+- DELETE /api/bookings/:id
+
+---
+
+# ⚙ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/UCAB.git
+```
+
+---
+
+## Client Setup
+
+```bash
+cd client
+
+npm install
+
+npm run dev
+```
+
+---
+
+## Server Setup
+
+```bash
+cd server
+
+npm install
+
+nodemon server.js
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file inside the **server** folder.
+
+```env
+PORT=8000
+
+MONGO_URI=mongodb://localhost:27017/UCAB
+
+JWT_SECRET=your_secret_key
+```
+
+---
+
+# 💻 Software Requirements
+
+- Windows 10/11
+- Node.js v16+
+- npm v8+
+- MongoDB
+- VS Code
+- Git
+- Postman
+- Google Chrome
+
+---
+
+# 🖥 Hardware Requirements
+
+- Intel Core i5 / Ryzen 5
+- 8 GB RAM (16 GB Recommended)
+- 1 GB Free Storage
+- 1366×768 Display
+
+---
+
+# 📷 Project Demonstration
+
+The repository includes:
+
+- Architecture Diagram
+- ER Diagram
+- User Flow
+- MVC Pattern
+- Backend Structure
+- Frontend Structure
+- MongoDB Configuration
+- Demo Screenshots
+- Demo Video
+
+---
+
+# 🎯 Learning Outcomes
+
+- MERN Stack Development
+- REST API Development
+- MongoDB Database Design
+- React Component Development
+- JWT Authentication
+- CRUD Operations
+- MVC Architecture
+- Git & GitHub Version Control
+- Full Stack Application Deployment
+
+---
+
+# 📌 Future Enhancements
+
+- Live GPS Tracking
+- Google Maps API Integration
+- Razorpay Payment Gateway
+- Email Notifications
+- Push Notifications
+- Driver Rating System
+- Ride Sharing
+- Coupon Management
+- Admin Analytics Dashboard
+
+---
+
+# 👨‍💻 Developed By
+
+Niharika Mokhamatam
+Naru Tejasri
+Seshadri Naidu Bantrothu
+Kolakaluri Vijay Babu
+Samarouthu Bala Gangadhara Sai Ram
+
+B.Tech (3rd Year)
+
+MERN Stack Development Project
+
+SmartBridge × SkillWallet
+
+---
+
+# 📄 License
+
+This project is developed for educational purposes as part of the SmartBridge SkillWallet MERN Stack Program.
+
+---
+
+## ⭐ If you like this project, don't forget to Star this repository!
