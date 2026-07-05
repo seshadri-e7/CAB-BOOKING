@@ -1,18 +1,18 @@
-# 🚖 UCAB – MERN Stack Cab Booking System
+# UCAB – MERN Stack Cab Booking System
 
 UCAB is a full-stack Cab Booking Web Application developed using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. The application provides a seamless platform for users to book cabs, track rides, manage bookings, and make secure payments. It also includes an Admin panel for managing users, cabs, and bookings.
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 UCAB simplifies daily transportation by allowing users to book rides online with an intuitive interface. The system provides role-based authentication for Users and Admins, secure booking management, real-time ride tracking, and payment support.
 
 ---
 
-# 🚀 Features
+#  Features
 
-### 👤 User Module
+###  User Module
 - User Registration & Login
 - Secure JWT Authentication
 - Browse Available Cabs
@@ -23,7 +23,7 @@ UCAB simplifies daily transportation by allowing users to book rides online with
 - Download Booking Receipt
 - Real-Time Ride Tracking
 
-### 🚗 Driver Module
+###  Driver Module
 - Driver Login
 - View Assigned Rides
 - Accept / Reject Booking Requests
@@ -31,7 +31,7 @@ UCAB simplifies daily transportation by allowing users to book rides online with
 - View Ride History
 - Earnings Dashboard
 
-### 👨💼 Admin Module
+###  Admin Module
 - Admin Authentication
 - Dashboard Overview
 - Manage Users
@@ -43,7 +43,7 @@ UCAB simplifies daily transportation by allowing users to book rides online with
 
 ---
 
-# 🛠 Technology Stack
+#  Technology Stack
 
 ## Frontend
 * React.js
@@ -77,7 +77,7 @@ UCAB simplifies daily transportation by allowing users to book rides online with
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 UCAB/
@@ -105,7 +105,7 @@ UCAB/
 
 ---
 
-# 🗄 Database Collections
+#  Database Collections
 
 * Users
 * Admins
@@ -116,7 +116,7 @@ UCAB/
 
 ---
 
-# 🔄 System Workflow
+#  System Workflow
 
 Below is the step-by-step trip lifecycle for a standard booking:
 
@@ -138,7 +138,7 @@ graph TD
 
 ---
 
-# 🔐 Authentication
+#  Authentication
 
 * JWT Token Authentication
 * Password Encryption using `bcryptjs`
@@ -147,7 +147,7 @@ graph TD
 
 ---
 
-# 📡 REST API Endpoints
+#  REST API Endpoints
 
 ### User APIs
 * `POST /api/users/register` - Registers a new rider account.
@@ -172,7 +172,7 @@ graph TD
 
 ---
 
-# ⚙ Installation
+#  Installation
 
 ### Clone Repository
 ```bash
@@ -206,7 +206,7 @@ JWT_SECRET=your_secret_key
 
 ---
 
-# 💻 Software Requirements
+#  Software Requirements
 
 * Windows 10/11
 * Node.js v16+
@@ -219,7 +219,7 @@ JWT_SECRET=your_secret_key
 
 ---
 
-# 🖥 Hardware Requirements
+#  Hardware Requirements
 
 * Intel Core i5 / Ryzen 5
 * 8 GB RAM (16 GB Recommended)
@@ -228,7 +228,7 @@ JWT_SECRET=your_secret_key
 
 ---
 
-# 📷 Project Demonstration
+#  Project Demonstration
 
 The repository includes:
 * [Architecture Diagram](file:///C:/Users/ADMIN/.gemini/antigravity/scratch/Cab-Booking-Project/3.Project%20Design%20Phase/project_architecture.md)
@@ -243,7 +243,7 @@ The repository includes:
 
 ---
 
-# 🎯 Learning Outcomes
+#  Learning Outcomes
 
 * MERN Stack Development
 * REST API Development
@@ -257,7 +257,7 @@ The repository includes:
 
 ---
 
-# 📌 Future Enhancements
+#  Future Enhancements
 
 * Live GPS Tracking
 * Google Maps API Integration
@@ -271,7 +271,7 @@ The repository includes:
 
 ---
 
-# 👨💻 Developed By
+#  Developed By
 
 Mokhamatam Niharika
 
@@ -288,10 +288,10 @@ SmartBridge × SkillWallet
 
 ---
 
-# 📄 License
+#  License
 
 This project is developed for educational purposes as part of the SmartBridge SkillWallet MERN Stack Program.
 
 ---
 
-## ⭐ If you like this project, don't forget to Star this repository!
+##  If you like this project, don't forget to Star this repository!
