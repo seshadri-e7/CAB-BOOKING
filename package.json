@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/seshadri-e7/CAB-BOOKING/tree/main"
   },
   "keywords": ["mern", "react", "nodejs", "express", "mongodb", "cab-booking", "full-stack"]
 }
