@@ -164,7 +164,7 @@ logged in `Project Documentation/5. Project Development Phase/User Acceptance Te
 ## 👤 Author
 
 **Niharika Mokhamatam** — Full Stack Developer
-GitHub: (https://github.com/seshadri-e7/CAB-BOOKING/new/main))
+GitHub: (https://github.com/seshadri-e7/CAB-BOOKING)
 
 ## 🙏 Acknowledgment
 
