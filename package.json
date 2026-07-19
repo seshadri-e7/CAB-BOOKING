@@ -1,0 +1,21 @@
+{
+  "name": "ucab-cab-booking",
+  "version": "1.0.0",
+  "description": "Ucab - Smart Cab Booking Application (MERN Stack) - SmartBridge Full Stack Internship Project",
+  "private": true,
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "seed": "cd server && npm run seed"
+  },
+  "author": "Niharika",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": ["mern", "react", "nodejs", "express", "mongodb", "cab-booking", "full-stack"]
+}
