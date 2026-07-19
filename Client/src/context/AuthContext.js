@@ -1,0 +1,41 @@
+import React, { createContext, useContext, useState } from "react";
+import api from "../services/api";
+
+const AuthContext = createContext(null);
+
+export function AuthProvider({ children }) {
+  const [user, setUser] = useState(() => {
+    const stored = localStorage.getItem("ucab_user");
+    return stored ? JSON.parse(stored) : null;
+  });
+
+  const login = async (email, password) => {
+    const { data } = await api.post("/auth/login", { email, password });
+    localStorage.setItem("ucab_token", data.token);
+    localStorage.setItem("ucab_user", JSON.stringify(data.user));
+    setUser(data.user);
+    return data.user;
+  };
+
+  const register = async (name, email, password, confirmPassword) => {
+    const { data } = await api.post("/auth/register", { name, email, password, confirmPassword });
+    localStorage.setItem("ucab_token", data.token);
+    localStorage.setItem("ucab_user", JSON.stringify(data.user));
+    setUser(data.user);
+    return data.user;
+  };
+
+  const logout = () => {
+    localStorage.removeItem("ucab_token");
+    localStorage.removeItem("ucab_user");
+    setUser(null);
+  };
+
+  return (
+    <AuthContext.Provider value={{ user, login, register, logout }}>
+      {children}
+    </AuthContext.Provider>
+  );
+}
+
+export const useAuth = () => useContext(AuthContext);
